@@ -18,6 +18,15 @@
 <div align="center">
 
 <a href="https://github.com/earentir">
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=earentir&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/earentir">
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=earentir&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/earentir">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=earentir&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
 </a>
 
@@ -25,6 +34,12 @@
 
 <a href="https://github.com/earentir">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=earentir&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Activity Graph" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/earentir">
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=earentir&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Wakatime Stats" />
 </a>
 
 </div>
