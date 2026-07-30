@@ -136,21 +136,27 @@ def categorize(repos: list[dict]):
     return categories, total_stars
 
 
-def escape_pipe(text: str) -> str:
-    return text.replace("|", "\\|")
+def escape_html(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def format_table(repos_list: list[dict]) -> str:
+def format_html_table(repos_list: list[dict]) -> str:
     if not repos_list:
         return "_No projects in this category._\n"
-    lines = ["| Repository | Description |", "|------------|-------------|"]
+    lines = [
+        '<table width="100%">',
+        '<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>',
+        '<tbody>',
+    ]
     for r in repos_list:
-        name = r["name"]
+        name = escape_html(r["name"])
         url = r["url"]
-        desc = escape_pipe(r["description"] or "")
+        desc = escape_html(r["description"] or "")
         if len(desc) > 90:
             desc = desc[:87] + "..."
-        lines.append(f"| [{name}]({url}) | {desc} |")
+        lines.append(f'<tr><td><a href="{url}">{name}</a></td><td>{desc}</td></tr>')
+    lines.append('</tbody>')
+    lines.append('</table>')
     return "\n".join(lines) + "\n"
 
 
@@ -159,7 +165,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         '<div align="center">',
         "",
         '<!-- Animated header -->',
-        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hallo;I+am+a+Senior+DevOps+Tech+Lead;I+love+building+tooling+and+platforms;Checkout+Network+Plane+a+full+stack+of+services" alt="Typing SVG" />',
+        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=1000&lines=Hallo;I+am+a+Senior+DevOps+Tech+Lead;I+love+building+tooling+and+platforms;Checkout+Network+Plane+a+full+stack+of+services" alt="Typing SVG" />',
         "",
         "<br>",
         "",
@@ -194,12 +200,6 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         '  <img src="https://github-readme-activity-graph.vercel.app/graph?username=earentir&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Activity Graph" />',
         "</a>",
         "",
-        "<br><br>",
-        "",
-        '<a href="https://github.com/earentir">',
-        '  <img src="https://github-profile-trophy.vercel.app/?username=earentir&theme=darkhub&no-frame=true&column=7&margin-w=10&margin-h=10" alt="Trophies" />',
-        "</a>",
-        "",
         "</div>",
         "",
         "---",
@@ -215,7 +215,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
             continue
         lines.append(f"### {cat_name}")
         lines.append("")
-        lines.append(format_table(cat_repos))
+        lines.append(format_html_table(cat_repos))
 
     lines.extend([
         "---",
@@ -237,13 +237,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "",
         '<div align="center">',
         "",
-        "### 📈 Contribution Stats",
-        "",
-        '<img src="https://github-readme-stats.vercel.app/api/wakatime?username=earentir&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&cache_seconds=86400" alt="Wakatime Stats" />',
-        "",
-        "<br><br>",
-        "",
-        '> *"Building tools that should have existed already."*',
+        '> *"Building tooling since 1998"*',
         "",
         "<br>",
         "",
