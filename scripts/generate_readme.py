@@ -159,7 +159,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         '<div align="center">',
         "",
         '<!-- Animated header -->',
-        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I\'m+earentir!;Systems+%26+Network+Engineer;Go+%7C+TypeScript+%7C+Pascal+Developer;Building+the+Network+Plane+%F0%9F%9B%AB" alt="Typing SVG" />',
+        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hallo;DevOps+Lead;I+love+building+tooling+and+platforms;Checkout+Network+Plane+a+full+stack+of+services" alt="Typing SVG" />',
         "",
         "<br>",
         "",
