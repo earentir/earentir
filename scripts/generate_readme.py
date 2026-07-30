@@ -136,22 +136,34 @@ def categorize(repos: list[dict]):
     return categories, total_stars
 
 
-def escape_pipe(text: str) -> str:
-    return text.replace("|", "\\|")
+def escape_html(text: str) -> str:
+    return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def format_md_table(repos_list: list[dict]) -> str:
+def format_html_table(repos_list: list[dict]) -> str:
     if not repos_list:
         return "_No projects in this category._\n"
-    lines = ["| Repository | Description |", "|------------|-------------|"]
+
+    rows = []
     for r in repos_list:
-        name = r["name"]
+        name = escape_html(r["name"])
         url = r["url"]
-        desc = escape_pipe(r["description"] or "")
+        desc = escape_html(r["description"] or "")
         if len(desc) > 100:
             desc = desc[:97] + "..."
-        lines.append(f"| [{name}]({url}) | {desc} |")
-    return "\n".join(lines) + "\n"
+        rows.append(f'    <tr><td width="25%"><a href="{url}">{name}</a></td><td width="75%">{desc}</td></tr>')
+
+    table = (
+        '<table width="100%">\n'
+        '  <thead>\n'
+        '    <tr><th width="25%">Repository</th><th width="75%">Description</th></tr>\n'
+        '  </thead>\n'
+        '  <tbody>\n' +
+        "\n".join(rows) +
+        '\n  </tbody>\n'
+        '</table>\n'
+    )
+    return table
 
 
 def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str:
@@ -159,7 +171,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         '<div align="center">',
         "",
         '<!-- Animated header -->',
-        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=1000&lines=Hallo;I+am+a+Senior+DevOps+Tech+Lead;I+love+building+tooling+and+platforms;Checkout+Network+Plane+a+full+stack+of+services" alt="Typing SVG" />',
+        '<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=1200&lines=Hallo;I+am+a+Senior+DevOps+Tech+Lead;I+love+building+tooling+and+platforms;Checkout+Network+Plane+a+full+stack+of+services" alt="Typing SVG" />',
         "",
         "<br>",
         "",
@@ -175,12 +187,24 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "",
         '<div align="center">',
         "",
+        '<!-- Stats + Top Langs side by side -->',
+        '<a href="https://github.com/earentir">',
+        '  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=earentir&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />',
+        '</a>',
+        '<a href="https://github.com/earentir">',
+        '  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=earentir&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10" alt="Top Languages" />',
+        '</a>',
+        "",
+        "<br><br>",
+        "",
+        '<!-- Streak stats -->',
         '<a href="https://github.com/earentir">',
         '  <img src="https://github-readme-streak-stats.herokuapp.com/?user=earentir&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />',
         "</a>",
         "",
         "<br><br>",
         "",
+        '<!-- Activity graph -->',
         '<a href="https://github.com/earentir">',
         '  <img src="https://github-readme-activity-graph.vercel.app/graph?username=earentir&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Activity Graph" />',
         "</a>",
@@ -200,7 +224,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
             continue
         lines.append(f"### {cat_name}")
         lines.append("")
-        lines.append(format_md_table(cat_repos))
+        lines.append(format_html_table(cat_repos))
 
     lines.extend([
         "---",
@@ -221,6 +245,13 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "---",
         "",
         '<div align="center">',
+        "",
+        '<!-- Wakatime coding stats -->',
+        '<a href="https://github.com/earentir">',
+        '  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=earentir&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Wakatime Stats" />',
+        "</a>",
+        "",
+        "<br><br>",
         "",
         '> *"Building tooling since 1998"*',
         "",
