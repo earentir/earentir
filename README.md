@@ -18,15 +18,6 @@
 <div align="center">
 
 <a href="https://github.com/earentir">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=earentir&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=86400" />
-</a>
-<a href="https://github.com/earentir">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=earentir&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&cache_seconds=86400" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/earentir">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=earentir&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
 </a>
 
@@ -46,161 +37,131 @@
 
 ### 🌐 Network Stack (network-plane)
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/network-plane/dnsplane">dnsplane</a></td><td>DNS Server for labs and home</td></tr>
-<tr><td><a href="https://github.com/network-plane/ntpcl">ntpcl</a></td><td>A simple NTP client to fetch and optionally set system time</td></tr>
-<tr><td><a href="https://github.com/network-plane/whichdns">whichdns</a></td><td>Does a DNS request to identify the DNS server that provided the reply</td></tr>
-<tr><td><a href="https://github.com/network-plane/dhcplane">dhcplane</a></td><td>A highly configurable and efficient DHCP Server with multiple features</td></tr>
-<tr><td><a href="https://github.com/network-plane/shareplane">shareplane</a></td><td></td></tr>
-<tr><td><a href="https://github.com/network-plane/dnslat">dnslat</a></td><td></td></tr>
-<tr><td><a href="https://github.com/network-plane/planeweb">planeweb</a></td><td></td></tr>
-<tr><td><a href="https://github.com/network-plane/nat-detection">nat-detection</a></td><td></td></tr>
-<tr><td><a href="https://github.com/network-plane/dnsdoc">dnsdoc</a></td><td>DNS Doctor is a tool to identify issues with DNS servers (not records for now)</td></tr>
-<tr><td><a href="https://github.com/network-plane/speedplane">speedplane</a></td><td>service with a web ui that runs speedtests on a schedule (or manually)</td></tr>
-<tr><td><a href="https://github.com/network-plane/headview">headview</a></td><td>Very simple tool to do a head request and report the time taken for each step</td></tr>
-<tr><td><a href="https://github.com/network-plane/dhcpdoc">dhcpdoc</a></td><td>Tool to Debug DHCP Servers</td></tr>
-<tr><td><a href="https://github.com/network-plane/planeoui">planeoui</a></td><td>Package to search into OUI lists and return manufactures (or the reverse), it is handli...</td></tr>
-<tr><td><a href="https://github.com/network-plane/.github">.github</a></td><td>Network Plane is a platform of tools all sharing the same TUI and console. The idea is ...</td></tr>
-<tr><td><a href="https://github.com/network-plane/textscore">textscore</a></td><td>package that offers various text scoring funcs</td></tr>
-<tr><td><a href="https://github.com/network-plane/planeconsole">planeconsole</a></td><td>The monitor console used by the tools in this platform.</td></tr>
-<tr><td><a href="https://github.com/network-plane/planetui">planetui</a></td><td></td></tr>
-<tr><td><a href="https://github.com/network-plane/mdnsplane">mdnsplane</a></td><td>mdns Server/Proxy/Shadow Proxy</td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [dnsplane](https://github.com/network-plane/dnsplane) | DNS Server for labs and home |
+| [ntpcl](https://github.com/network-plane/ntpcl) | A simple NTP client to fetch and optionally set system time |
+| [whichdns](https://github.com/network-plane/whichdns) | Does a DNS request to identify the DNS server that provided the reply |
+| [dhcplane](https://github.com/network-plane/dhcplane) | A highly configurable and efficient DHCP Server with multiple features |
+| [shareplane](https://github.com/network-plane/shareplane) |  |
+| [dnslat](https://github.com/network-plane/dnslat) |  |
+| [planeweb](https://github.com/network-plane/planeweb) |  |
+| [nat-detection](https://github.com/network-plane/nat-detection) |  |
+| [dnsdoc](https://github.com/network-plane/dnsdoc) | DNS Doctor is a tool to identify issues with DNS servers (not records for now) |
+| [speedplane](https://github.com/network-plane/speedplane) | service with a web ui that runs speedtests on a schedule (or manually) |
+| [headview](https://github.com/network-plane/headview) | Very simple tool to do a head request and report the time taken for each step |
+| [dhcpdoc](https://github.com/network-plane/dhcpdoc) | Tool to Debug DHCP Servers |
+| [planeoui](https://github.com/network-plane/planeoui) | Package to search into OUI lists and return manufactures (or the reverse), it is handli... |
+| [.github](https://github.com/network-plane/.github) | Network Plane is a platform of tools all sharing the same TUI and console. The idea is ... |
+| [textscore](https://github.com/network-plane/textscore) | package that offers various text scoring funcs |
+| [planeconsole](https://github.com/network-plane/planeconsole) | The monitor console used by the tools in this platform. |
+| [planetui](https://github.com/network-plane/planetui) |  |
+| [mdnsplane](https://github.com/network-plane/mdnsplane) | mdns Server/Proxy/Shadow Proxy |
 
 ### 🛠️ Dev Tools & CLI
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/gitea-release">gitea-release</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/gitearelease">gitearelease</a></td><td>Access gitea, github, gitlab releases over the API</td></tr>
-<tr><td><a href="https://github.com/earentir/gitcng">gitcng</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/pbuild">pbuild</a></td><td>Build go projects</td></tr>
-<tr><td><a href="https://github.com/earentir/fndupe">fndupe</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/ttail">ttail</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/updatego">updatego</a></td><td>This tool allows you to install any version of go,  update the current version and keep...</td></tr>
-<tr><td><a href="https://github.com/earentir/linknife">linknife</a></td><td>cli URL shortener</td></tr>
-<tr><td><a href="https://github.com/earentir/tablemaker">tablemaker</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/discordupdate">discordupdate</a></td><td>Update the linux version of discord</td></tr>
-<tr><td><a href="https://github.com/earentir/identifybin">identifybin</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/confstore">confstore</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [gitea-release](https://github.com/earentir/gitea-release) |  |
+| [gitearelease](https://github.com/earentir/gitearelease) | Access gitea, github, gitlab releases over the API |
+| [gitcng](https://github.com/earentir/gitcng) |  |
+| [pbuild](https://github.com/earentir/pbuild) | Build go projects |
+| [fndupe](https://github.com/earentir/fndupe) |  |
+| [ttail](https://github.com/earentir/ttail) |  |
+| [updatego](https://github.com/earentir/updatego) | This tool allows you to install any version of go,  update the current version and keep... |
+| [linknife](https://github.com/earentir/linknife) | cli URL shortener |
+| [tablemaker](https://github.com/earentir/tablemaker) |  |
+| [discordupdate](https://github.com/earentir/discordupdate) | Update the linux version of discord |
+| [identifybin](https://github.com/earentir/identifybin) |  |
+| [confstore](https://github.com/earentir/confstore) |  |
 
 ### 🔌 Hardware & System Info
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/tsmbios">tsmbios</a></td><td>Library to access the SMBIOS using Object Pascal (Delphi, FPC).</td></tr>
-<tr><td><a href="https://github.com/earentir/dsktool">dsktool</a></td><td>Tools to read disk and partition data as well as image partitions</td></tr>
-<tr><td><a href="https://github.com/earentir/xdb">xdb</a></td><td>go package to parse Patricia M. Hoffmans XDB database used in her VSUM tool</td></tr>
-<tr><td><a href="https://github.com/earentir/gosmbios">gosmbios</a></td><td>Fully current SMBIOS package (3.9.0)</td></tr>
-<tr><td><a href="https://github.com/earentir/cpuid">cpuid</a></td><td>Native GO CPUID implementation without CGO (ASM Implementation)</td></tr>
-<tr><td><a href="https://github.com/earentir/ehw">ehw</a></td><td>ears HW Info Tool</td></tr>
-<tr><td><a href="https://github.com/earentir/mkfat">mkfat</a></td><td>pure go floppy disk format tool</td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [tsmbios](https://github.com/earentir/tsmbios) | Library to access the SMBIOS using Object Pascal (Delphi, FPC). |
+| [dsktool](https://github.com/earentir/dsktool) | Tools to read disk and partition data as well as image partitions |
+| [xdb](https://github.com/earentir/xdb) | go package to parse Patricia M. Hoffmans XDB database used in her VSUM tool |
+| [gosmbios](https://github.com/earentir/gosmbios) | Fully current SMBIOS package (3.9.0) |
+| [cpuid](https://github.com/earentir/cpuid) | Native GO CPUID implementation without CGO (ASM Implementation) |
+| [ehw](https://github.com/earentir/ehw) | ears HW Info Tool |
+| [mkfat](https://github.com/earentir/mkfat) | pure go floppy disk format tool |
 
 ### 📡 DNS & Network Utilities
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/sslcheck">sslcheck</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/tunneldnsctl">tunneldnsctl</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/r53q">r53q</a></td><td>Simple Client for route53 DNS, it can pull data needed by other tools</td></tr>
-<tr><td><a href="https://github.com/earentir/subscan">subscan</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [sslcheck](https://github.com/earentir/sslcheck) |  |
+| [tunneldnsctl](https://github.com/earentir/tunneldnsctl) |  |
+| [r53q](https://github.com/earentir/r53q) | Simple Client for route53 DNS, it can pull data needed by other tools |
+| [subscan](https://github.com/earentir/subscan) |  |
 
 ### 🎬 API Clients & Media
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/tmdbclient">tmdbclient</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/earapi">earapi</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/netflixtudumscrapper">netflixtudumscrapper</a></td><td>Parse the Netflix tudum for stats</td></tr>
-<tr><td><a href="https://github.com/earentir/steamapidata">steamapidata</a></td><td>bunch of functions to do requests to the steam API</td></tr>
-<tr><td><a href="https://github.com/earentir/tmdbapidata">tmdbapidata</a></td><td>bunch of helpers to calls of tmdb api</td></tr>
-<tr><td><a href="https://github.com/earentir/go-proxmox">go-proxmox</a></td><td>Go client with types and tests for the Proxmox-VE REST API</td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [tmdbclient](https://github.com/earentir/tmdbclient) |  |
+| [earapi](https://github.com/earentir/earapi) |  |
+| [netflixtudumscrapper](https://github.com/earentir/netflixtudumscrapper) | Parse the Netflix tudum for stats |
+| [steamapidata](https://github.com/earentir/steamapidata) | bunch of functions to do requests to the steam API |
+| [tmdbapidata](https://github.com/earentir/tmdbapidata) | bunch of helpers to calls of tmdb api |
+| [go-proxmox](https://github.com/earentir/go-proxmox) | Go client with types and tests for the Proxmox-VE REST API |
 
 ### 🖥️ TUI & Terminal Apps
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/mdnfo">mdnfo</a></td><td>MD File NFO Style Viewer</td></tr>
-<tr><td><a href="https://github.com/earentir/keyboardtester">keyboardtester</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/retrotui">retrotui</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/contribmap">contribmap</a></td><td>Builds an SVG of a contribution map</td></tr>
-<tr><td><a href="https://github.com/earentir/tui-json-viewer">tui-json-viewer</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [mdnfo](https://github.com/earentir/mdnfo) | MD File NFO Style Viewer |
+| [keyboardtester](https://github.com/earentir/keyboardtester) |  |
+| [retrotui](https://github.com/earentir/retrotui) |  |
+| [contribmap](https://github.com/earentir/contribmap) | Builds an SVG of a contribution map |
+| [tui-json-viewer](https://github.com/earentir/tui-json-viewer) |  |
 
 ### 🎮 Games, Bots & Fun
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/etbot">etbot</a></td><td>Ear's Twitch Bot</td></tr>
-<tr><td><a href="https://github.com/earentir/holedivers">holedivers</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/discordmagictime">discordmagictime</a></td><td>Magic Discord Time (pure JS, no framework)</td></tr>
-<tr><td><a href="https://github.com/earentir/randomstreamscripts">randomstreamscripts</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [etbot](https://github.com/earentir/etbot) | Ear's Twitch Bot |
+| [holedivers](https://github.com/earentir/holedivers) |  |
+| [discordmagictime](https://github.com/earentir/discordmagictime) | Magic Discord Time (pure JS, no framework) |
+| [randomstreamscripts](https://github.com/earentir/randomstreamscripts) |  |
 
 ### 📊 Calculators & Productivity
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/nightrelcalc">nightrelcalc</a></td><td>Overtime Calculation for Releases</td></tr>
-<tr><td><a href="https://github.com/earentir/simplecal">simplecal</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/RailStationHelper">RailStationHelper</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/timeoff">timeoff</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/relplanner">relplanner</a></td><td>def dont use as is, working on ideas, UI is based on timeoff</td></tr>
-<tr><td><a href="https://github.com/earentir/simpleinterestcalculations">simpleinterestcalculations</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/inflation">inflation</a></td><td>Inflation Calculator</td></tr>
-<tr><td><a href="https://github.com/earentir/internettime">internettime</a></td><td>Package to convert time to Internet Time (Swatch .beats) and the other way</td></tr>
-<tr><td><a href="https://github.com/earentir/commoncal">commoncal</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [nightrelcalc](https://github.com/earentir/nightrelcalc) | Overtime Calculation for Releases |
+| [simplecal](https://github.com/earentir/simplecal) |  |
+| [RailStationHelper](https://github.com/earentir/RailStationHelper) |  |
+| [timeoff](https://github.com/earentir/timeoff) |  |
+| [relplanner](https://github.com/earentir/relplanner) | def dont use as is, working on ideas, UI is based on timeoff |
+| [simpleinterestcalculations](https://github.com/earentir/simpleinterestcalculations) |  |
+| [inflation](https://github.com/earentir/inflation) | Inflation Calculator |
+| [internettime](https://github.com/earentir/internettime) | Package to convert time to Internet Time (Swatch .beats) and the other way |
+| [commoncal](https://github.com/earentir/commoncal) |  |
 
 ### 📁 Other Projects
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/earentir">earentir</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/earentir.github.io">earentir.github.io</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/.trunk">.trunk</a></td><td>Used by Trunk. Learn more at https://docs.trunk.io/check/github-integration</td></tr>
-<tr><td><a href="https://github.com/earentir/cmsmgmt">cmsmgmt</a></td><td>CMS Management</td></tr>
-<tr><td><a href="https://github.com/earentir/dimg">dimg</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/earsaudiobridge">earsaudiobridge</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/homepage">homepage</a></td><td></td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [earentir](https://github.com/earentir/earentir) |  |
+| [earentir.github.io](https://github.com/earentir/earentir.github.io) |  |
+| [.trunk](https://github.com/earentir/.trunk) | Used by Trunk. Learn more at https://docs.trunk.io/check/github-integration |
+| [cmsmgmt](https://github.com/earentir/cmsmgmt) | CMS Management |
+| [dimg](https://github.com/earentir/dimg) |  |
+| [earsaudiobridge](https://github.com/earentir/earsaudiobridge) |  |
+| [homepage](https://github.com/earentir/homepage) |  |
 
 ### 🗃️ Archived Projects
 
-<table width="100%">
-<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/earentir/SWInv">SWInv</a></td><td>Software Inventory</td></tr>
-<tr><td><a href="https://github.com/earentir/dhcpconfighelper">dhcpconfighelper</a></td><td></td></tr>
-<tr><td><a href="https://github.com/earentir/bcncli">bcncli</a></td><td>BConomy cli client</td></tr>
-<tr><td><a href="https://github.com/earentir/recipebook">recipebook</a></td><td>Recipe Book made on Stream using Lazarus &amp; FPC</td></tr>
-<tr><td><a href="https://github.com/earentir/tamegatchi">tamegatchi</a></td><td>Tamagotchi game for RuJAM 2022A - Slice of Life</td></tr>
-<tr><td><a href="https://github.com/earentir/prvdns">prvdns</a></td><td>Private DNS Server</td></tr>
-</tbody>
-</table>
+| Repository | Description |
+|------------|-------------|
+| [SWInv](https://github.com/earentir/SWInv) | Software Inventory |
+| [dhcpconfighelper](https://github.com/earentir/dhcpconfighelper) |  |
+| [bcncli](https://github.com/earentir/bcncli) | BConomy cli client |
+| [recipebook](https://github.com/earentir/recipebook) | Recipe Book made on Stream using Lazarus & FPC |
+| [tamegatchi](https://github.com/earentir/tamegatchi) | Tamagotchi game for RuJAM 2022A - Slice of Life |
+| [prvdns](https://github.com/earentir/prvdns) | Private DNS Server |
 
 ---
 
