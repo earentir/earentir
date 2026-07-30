@@ -136,27 +136,21 @@ def categorize(repos: list[dict]):
     return categories, total_stars
 
 
-def escape_html(text: str) -> str:
-    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+def escape_pipe(text: str) -> str:
+    return text.replace("|", "\\|")
 
 
-def format_html_table(repos_list: list[dict]) -> str:
+def format_md_table(repos_list: list[dict]) -> str:
     if not repos_list:
         return "_No projects in this category._\n"
-    lines = [
-        '<table width="100%">',
-        '<thead><tr><th width="35%">Repository</th><th width="65%">Description</th></tr></thead>',
-        '<tbody>',
-    ]
+    lines = ["| Repository | Description |", "|------------|-------------|"]
     for r in repos_list:
-        name = escape_html(r["name"])
+        name = r["name"]
         url = r["url"]
-        desc = escape_html(r["description"] or "")
-        if len(desc) > 90:
-            desc = desc[:87] + "..."
-        lines.append(f'<tr><td><a href="{url}">{name}</a></td><td>{desc}</td></tr>')
-    lines.append('</tbody>')
-    lines.append('</table>')
+        desc = escape_pipe(r["description"] or "")
+        if len(desc) > 100:
+            desc = desc[:97] + "..."
+        lines.append(f"| [{name}]({url}) | {desc} |")
     return "\n".join(lines) + "\n"
 
 
@@ -180,15 +174,6 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "## 📊 GitHub Analytics",
         "",
         '<div align="center">',
-        "",
-        '<a href="https://github.com/earentir">',
-        '  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=earentir&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=86400" />',
-        "</a>",
-        '<a href="https://github.com/earentir">',
-        '  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=earentir&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&cache_seconds=86400" />',
-        "</a>",
-        "",
-        "<br><br>",
         "",
         '<a href="https://github.com/earentir">',
         '  <img src="https://github-readme-streak-stats.herokuapp.com/?user=earentir&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />',
@@ -215,7 +200,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
             continue
         lines.append(f"### {cat_name}")
         lines.append("")
-        lines.append(format_html_table(cat_repos))
+        lines.append(format_md_table(cat_repos))
 
     lines.extend([
         "---",
