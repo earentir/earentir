@@ -129,7 +129,6 @@ def categorize(repos: list[dict]):
         else:
             categories["📁 Other Projects"].append(item)
 
-    # Sort each category by stars desc
     for cat in categories:
         categories[cat].sort(key=lambda x: x["stars"], reverse=True)
 
@@ -245,13 +244,6 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "---",
         "",
         '<div align="center">',
-        "",
-        '<!-- Wakatime coding stats -->',
-        '<a href="https://github.com/earentir">',
-        '  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=earentir&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Wakatime Stats" />',
-        "</a>",
-        "",
-        "<br><br>",
         "",
         '> *"Building tooling since 1998"*',
         "",
