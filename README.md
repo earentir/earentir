@@ -82,8 +82,8 @@
     <tr><th width="25%">Repository</th><th width="75%">Description</th></tr>
   </thead>
   <tbody>
-    <tr><td width="25%"><a href="https://github.com/earentir/gitea-release">gitea-release</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/gitearelease">gitearelease</a></td><td width="75%">Access gitea, github, gitlab releases over the API</td></tr>
+    <tr><td width="25%"><a href="https://github.com/earentir/gitea-release">gitea-release</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/gitcng">gitcng</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/pbuild">pbuild</a></td><td width="75%">Build go projects</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/fndupe">fndupe</a></td><td width="75%"></td></tr>
@@ -253,6 +253,6 @@
 
 <br>
 
-![GitHub Stars](https://img.shields.io/badge/Total_Stars-129-FFD700?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Stars](https://img.shields.io/badge/Total_Stars-146-FFD700?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
