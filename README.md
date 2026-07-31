@@ -55,9 +55,9 @@
   </thead>
   <tbody>
     <tr><td width="25%"><a href="https://github.com/network-plane/dnsplane">dnsplane</a></td><td width="75%">DNS Server for labs and home</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/dhcplane">dhcplane</a></td><td width="75%">A highly configurable and efficient DHCP Server with multiple features</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/ntpcl">ntpcl</a></td><td width="75%">A simple NTP client to fetch and optionally set system time</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/whichdns">whichdns</a></td><td width="75%">Does a DNS request to identify the DNS server that provided the reply</td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/dhcplane">dhcplane</a></td><td width="75%">A highly configurable and efficient DHCP Server with multiple features</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/shareplane">shareplane</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/dnslat">dnslat</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/planeweb">planeweb</a></td><td width="75%"></td></tr>
@@ -66,8 +66,8 @@
     <tr><td width="25%"><a href="https://github.com/network-plane/speedplane">speedplane</a></td><td width="75%">service with a web ui that runs speedtests on a schedule (or manually)</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/headview">headview</a></td><td width="75%">Very simple tool to do a head request and report the time taken for each step</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/dhcpdoc">dhcpdoc</a></td><td width="75%">Tool to Debug DHCP Servers</td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/planeoui">planeoui</a></td><td width="75%">Package to search into OUI lists and return manufactures (or the reverse), it is handli...</td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/.github">.github</a></td><td width="75%">Network Plane is a platform of tools all sharing the same TUI and console. The idea is ...</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/planeoui">planeoui</a></td><td width="75%">Package to search into OUI lists and return manufactures (or the reverse), it is handling the dow...</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/.github">.github</a></td><td width="75%">Network Plane is a platform of tools all sharing the same TUI and console. The idea is that all t...</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/textscore">textscore</a></td><td width="75%">package that offers various text scoring funcs</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/planeconsole">planeconsole</a></td><td width="75%">The monitor console used by the tools in this platform.</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/planetui">planetui</a></td><td width="75%"></td></tr>
@@ -88,7 +88,7 @@
     <tr><td width="25%"><a href="https://github.com/earentir/pbuild">pbuild</a></td><td width="75%">Build go projects</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/fndupe">fndupe</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/ttail">ttail</a></td><td width="75%"></td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/updatego">updatego</a></td><td width="75%">This tool allows you to install any version of go,  update the current version and keep...</td></tr>
+    <tr><td width="25%"><a href="https://github.com/earentir/updatego">updatego</a></td><td width="75%">This tool allows you to install any version of go,  update the current version and keep multiple ...</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/linknife">linknife</a></td><td width="75%">cli URL shortener</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/tablemaker">tablemaker</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/discordupdate">discordupdate</a></td><td width="75%">Update the linux version of discord</td></tr>
@@ -253,6 +253,6 @@
 
 <br>
 
-![GitHub Stars](https://img.shields.io/badge/Total_Stars-10-FFD700?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Stars](https://img.shields.io/badge/Total_Stars-129-FFD700?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
