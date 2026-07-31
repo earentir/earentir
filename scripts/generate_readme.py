@@ -177,6 +177,7 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         '[![Website](https://img.shields.io/badge/Website-earentir.dev-58A6FF?style=flat-square&logo=firefox&logoColor=white)](https://earentir.dev)',
         '[![GitHub Followers](https://img.shields.io/github/followers/earentir?style=flat-square&logo=github&color=181717)](https://github.com/earentir)',
         f'[![Repos](https://img.shields.io/badge/Repos-{total_repos}+-181717?style=flat-square&logo=github)](https://github.com/earentir?tab=repositories)',
+        f'[![Total Stars](https://img.shields.io/badge/Total_Stars-{total_stars}-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)',
         "",
         "</div>",
         "",
@@ -212,22 +213,6 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "",
         "---",
         "",
-        "## 🚀 Projects by Category",
-        "",
-        f"> **{total_repos} repositories** across personal projects and the [**Network Plane**](https://github.com/network-plane) ecosystem.",
-        "",
-    ]
-
-    for cat_name, cat_repos in categories.items():
-        if not cat_repos:
-            continue
-        lines.append(f"### {cat_name}")
-        lines.append("")
-        lines.append(format_html_table(cat_repos))
-
-    lines.extend([
-        "---",
-        "",
         "## 🛠️ Tech Stack",
         "",
         '<div align="center">',
@@ -248,13 +233,25 @@ def generate_readme(categories: dict, total_stars: int, total_repos: int) -> str
         "",
         "---",
         "",
+        "## 🚀 Projects by Category",
+        "",
+        f"> **{total_repos} repositories** across personal projects and the [**Network Plane**](https://github.com/network-plane) ecosystem.",
+        "",
+    ]
+
+    for cat_name, cat_repos in categories.items():
+        if not cat_repos:
+            continue
+        lines.append(f"### {cat_name}")
+        lines.append("")
+        lines.append(format_html_table(cat_repos))
+
+    lines.extend([
+        "---",
+        "",
         '<div align="center">',
         "",
         '> *"Building tooling since 1998"*',
-        "",
-        "<br>",
-        "",
-        f'![GitHub Stars](https://img.shields.io/badge/Total_Stars-{total_stars}-FFD700?style=for-the-badge&logo=github&logoColor=white)',
         "",
         "</div>",
         "",
