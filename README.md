@@ -78,11 +78,11 @@
     <tr><td width="25%"><a href="https://github.com/network-plane/dnsplane">dnsplane</a></td><td width="75%">DNS Server for labs and home</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/dhcplane">dhcplane</a></td><td width="75%">A highly configurable and efficient DHCP Server with multiple features</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/ntpcl">ntpcl</a></td><td width="75%">A simple NTP client to fetch and optionally set system time</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/nat-detection">nat-detection</a></td><td width="75%">Detect the presence of NAT and GNAT</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/dnslat">dnslat</a></td><td width="75%">Run DNS latency tests, generate graphs and historical records.</td></tr>
+    <tr><td width="25%"><a href="https://github.com/network-plane/shareplane">shareplane</a></td><td width="75%">A lightweight HTTP server written in Go for serving files and directories over HTTP. Perfect for ...</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/whichdns">whichdns</a></td><td width="75%">Does a DNS request to identify the DNS server that provided the reply</td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/shareplane">shareplane</a></td><td width="75%"></td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/dnslat">dnslat</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/planeweb">planeweb</a></td><td width="75%"></td></tr>
-    <tr><td width="25%"><a href="https://github.com/network-plane/nat-detection">nat-detection</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/dnsdoc">dnsdoc</a></td><td width="75%">DNS Doctor is a tool to identify issues with DNS servers (not records for now)</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/speedplane">speedplane</a></td><td width="75%">service with a web ui that runs speedtests on a schedule (or manually)</td></tr>
     <tr><td width="25%"><a href="https://github.com/network-plane/headview">headview</a></td><td width="75%">Very simple tool to do a head request and report the time taken for each step</td></tr>
