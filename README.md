@@ -142,10 +142,10 @@
     <tr><th width="25%">Repository</th><th width="75%">Description</th></tr>
   </thead>
   <tbody>
+    <tr><td width="25%"><a href="https://github.com/earentir/subscan">subscan</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/sslcheck">sslcheck</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/tunneldnsctl">tunneldnsctl</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/r53q">r53q</a></td><td width="75%">Simple Client for route53 DNS, it can pull data needed by other tools</td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/subscan">subscan</a></td><td width="75%"></td></tr>
   </tbody>
 </table>
 
