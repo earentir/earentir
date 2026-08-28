@@ -8,7 +8,7 @@
 [![Website](https://img.shields.io/badge/Website-earentir.dev-58A6FF?style=flat-square&logo=firefox&logoColor=white)](https://earentir.dev)
 [![GitHub Followers](https://img.shields.io/github/followers/earentir?style=flat-square&logo=github&color=181717)](https://github.com/earentir)
 [![Repos](https://img.shields.io/badge/Repos-78+-181717?style=flat-square&logo=github)](https://github.com/earentir?tab=repositories)
-[![Total Stars](https://img.shields.io/badge/Total_Stars-137-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
+[![Total Stars](https://img.shields.io/badge/Total_Stars-136-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
 
 </div>
 
