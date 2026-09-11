@@ -202,9 +202,9 @@
   </thead>
   <tbody>
     <tr><td width="25%"><a href="https://github.com/earentir/nightrelcalc">nightrelcalc</a></td><td width="75%">Overtime Calculation for Releases</td></tr>
+    <tr><td width="25%"><a href="https://github.com/earentir/timeoff">timeoff</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/simplecal">simplecal</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/RailStationHelper">RailStationHelper</a></td><td width="75%"></td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/timeoff">timeoff</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/relplanner">relplanner</a></td><td width="75%">def dont use as is, working on ideas, UI is based on timeoff</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/simpleinterestcalculations">simpleinterestcalculations</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/inflation">inflation</a></td><td width="75%">Inflation Calculator</td></tr>
