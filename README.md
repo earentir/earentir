@@ -8,7 +8,7 @@
 [![Website](https://img.shields.io/badge/Website-earentir.dev-58A6FF?style=flat-square&logo=firefox&logoColor=white)](https://earentir.dev)
 [![GitHub Followers](https://img.shields.io/github/followers/earentir?style=flat-square&logo=github&color=181717)](https://github.com/earentir)
 [![Repos](https://img.shields.io/badge/Repos-78+-181717?style=flat-square&logo=github)](https://github.com/earentir?tab=repositories)
-[![Total Stars](https://img.shields.io/badge/Total_Stars-132-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
+[![Total Stars](https://img.shields.io/badge/Total_Stars-185-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
 
 </div>
 
@@ -125,11 +125,11 @@
     <tr><th width="25%">Repository</th><th width="75%">Description</th></tr>
   </thead>
   <tbody>
+    <tr><td width="25%"><a href="https://github.com/earentir/cpuid">cpuid</a></td><td width="75%">Native GO CPUID implementation without CGO (ASM Implementation)</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/tsmbios">tsmbios</a></td><td width="75%">Library to access the SMBIOS using Object Pascal (Delphi, FPC).</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/dsktool">dsktool</a></td><td width="75%">Tools to read disk and partition data as well as image partitions</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/xdb">xdb</a></td><td width="75%">go package to parse Patricia M. Hoffmans XDB database used in her VSUM tool</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/gosmbios">gosmbios</a></td><td width="75%">Fully current SMBIOS package (3.9.0)</td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/cpuid">cpuid</a></td><td width="75%">Native GO CPUID implementation without CGO (ASM Implementation)</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/ehw">ehw</a></td><td width="75%">ears HW Info Tool</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/mkfat">mkfat</a></td><td width="75%">pure go floppy disk format tool</td></tr>
   </tbody>
