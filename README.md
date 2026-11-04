@@ -8,7 +8,7 @@
 [![Website](https://img.shields.io/badge/Website-earentir.dev-58A6FF?style=flat-square&logo=firefox&logoColor=white)](https://earentir.dev)
 [![GitHub Followers](https://img.shields.io/github/followers/earentir?style=flat-square&logo=github&color=181717)](https://github.com/earentir)
 [![Repos](https://img.shields.io/badge/Repos-78+-181717?style=flat-square&logo=github)](https://github.com/earentir?tab=repositories)
-[![Total Stars](https://img.shields.io/badge/Total_Stars-185-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
+[![Total Stars](https://img.shields.io/badge/Total_Stars-215-FFD700?style=flat-square&logo=github&logoColor=white)](https://github.com/earentir?tab=repositories)
 
 </div>
 
@@ -105,9 +105,9 @@
   <tbody>
     <tr><td width="25%"><a href="https://github.com/earentir/gitearelease">gitearelease</a></td><td width="75%">Access gitea, github, gitlab releases over the API</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/gitea-release">gitea-release</a></td><td width="75%"></td></tr>
+    <tr><td width="25%"><a href="https://github.com/earentir/pbuild">pbuild</a></td><td width="75%">Build go projects</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/gitcng">gitcng</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/updatego">updatego</a></td><td width="75%">This tool allows you to install any version of go,  update the current version and keep multiple ...</td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/pbuild">pbuild</a></td><td width="75%">Build go projects</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/fndupe">fndupe</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/ttail">ttail</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/linknife">linknife</a></td><td width="75%">cli URL shortener</td></tr>
@@ -219,9 +219,9 @@
     <tr><th width="25%">Repository</th><th width="75%">Description</th></tr>
   </thead>
   <tbody>
+    <tr><td width="25%"><a href="https://github.com/earentir/earsaudiobridge">earsaudiobridge</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/earentir">earentir</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/.trunk">.trunk</a></td><td width="75%">Used by Trunk. Learn more at https://docs.trunk.io/check/github-integration</td></tr>
-    <tr><td width="25%"><a href="https://github.com/earentir/earsaudiobridge">earsaudiobridge</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/earentir.github.io">earentir.github.io</a></td><td width="75%"></td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/cmsmgmt">cmsmgmt</a></td><td width="75%">CMS Management</td></tr>
     <tr><td width="25%"><a href="https://github.com/earentir/dimg">dimg</a></td><td width="75%"></td></tr>
